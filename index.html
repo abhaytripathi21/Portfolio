@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <!--Header section-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars-staggered" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#service">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!--Home section-->
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h3>Hi, Myself</h3>
+                <h1> Abhay Tripathi</h1>
+                <h3>And I'm a <span class="multiple-text">Developer</span></h3>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/abhay-tripathi-1347002b2"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/abhay.tripathi_"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/AbhayTr41357165?t=Y8JQUGTl5lXhng0ezMc7uw&s=09"><i
+                            class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1EfOas0XPm2z8yuVwX72JtwtG9tgEpvSO/view?usp=sharing"
+                    class="button">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="img/profile.jpg" alt="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!--About section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/profile.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Developer</h3>
+            <p>As a passionate and detail-oriented Developer, I bring a unique blend of creativity, analytical thinking,
+                and technical expertise to every project I undertake. My enthusiasm lies in designing intuitive,
+                user-centric interfaces and building robust backend systems that deliver smooth, scalable, and
+                high-performance digital solutions. I thrive on solving complex challenges, exploring new technologies,
+                and collaborating with cross-functional teams to transform ideas into impactful real-world applications.
+                For me, every line of code is not just syntax—it's a purposeful step toward creating innovative and
+                meaningful experiences.</p>
+        </div>
+    </section>
+
+    <!--service section design-->
+    <section class="service" id="service">
+        <div>
+            <br>
+            <h2 class="heading">My <span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>I specialize in creating dynamic, responsive websites that combine visual appeal with seamless
+                        performance. From designing clean, user-friendly frontends to developing secure and scalable
+                        backends, I deliver end-to-end web solutions tailored to meet your goals. Every project is built
+                        using the latest technologies, industry best practices, and a strong focus on performance,
+                        accessibility, and cross-device compatibility—ensuring a fast, modern, and engaging web
+                        experience for your users.</p>
+                </div>
+
+                <div class="services-box">
+                    <i class="fas fa-chess"></i>
+                    <h3>Machine Learning</h3>
+                    <p>I build intelligent ML solutions that turn data into insights and automation. From data
+                        preparation to model deployment, I create predictive models, recommendation systems, and
+                        classification tools using industry-standard techniques and tools.</p>
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-solid fa-mobile"></i>
+                    <h3>Java Development</h3>
+                    <p> I build secure, scalable, and high-performance applications tailored to your business
+                        objectives. Whether it's developing complex backend systems, RESTful APIs, or microservices
+                        architectures, my solutions are engineered for reliability, maintainability, and long-term
+                        success. I follow industry best practices to ensure robust code, efficient workflows, and
+                        seamless integration across platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="img\machine-learning.png">
+                <div class="portfolio-layer">
+                    <h4>Career and Course recommendation</h4>
+                    <p>Career Path Prediction based on a student's academic and personal profile. Course Recommendations
+                        tailored to a selected career path using natural language processing.</p>
+                    <a href="https://github.com/abhaytripathi21/Career-and-Course-Recommendation-System"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/currency-converter.png" alt="Web Development Project">
+                <div class="portfolio-layer">
+                    <h4>Currency Converter App</h4>
+                    <p>Currency Converter A simple and user-friendly Currency Converter web application that allows
+                        users to convert between different currencies in real-time.
+                        Convert EURO, INR, & USD to multiple currencies.</p>
+                    <a href="https://currencyconverter-abhaytripathi21.netlify.app/"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/git.png">
+                <div class="portfolio-layer">
+                    <h4>More...</h4>
+                    <p>Explore the full projects, including code and documentation, on my GitHub repository.</p>
+                    <a href="https://github.com/abhaytripathi21?tab=repositories"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div>
+            <form action="https://formspree.io/f/xqaboylz" method="POST">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+        </div>
+
+
+    </section>
+
+    <!--footer section-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright | All rights reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal js-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--main js-->
+    <script src="main.js"></script>
+</body>
+
+</html>
