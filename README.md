@@ -3,7 +3,7 @@ Abhay Tripathi — Developer Portfolio
 This is my personal portfolio website built with HTML, CSS, and JavaScript.
 It showcases my projects, skills, and services as a developer.
 
-Live Preview :- https://portfolio-abhay-tripathi.netlify.app/
+Live Preview :- https://portfolio-abhay-htm.netlify.app/
 
 📌 Features
 🎨 Responsive design for all devices (desktop, tablet, mobile)
